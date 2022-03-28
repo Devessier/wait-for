@@ -2,9 +2,14 @@
   "name": "@devessier/wait-for",
   "version": "0.0.0",
   "description": "Tools to try assertions until they succeed",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "exports": {
+    "import": "./dist/index.mjs",
+    "require": "./dist/index.js"
+  },
   "scripts": {
-    "test": "pnpm test"
+    "test": "pnpm test",
+    "build": "tsup src --dts --format esm,cjs"
   },
   "repository": {
     "type": "git",
@@ -18,5 +23,10 @@
   "homepage": "https://github.com/Devessier/wait-for#readme",
   "volta": {
     "node": "17.8.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node17": "^1.0.0",
+    "tsup": "^5.12.1",
+    "typescript": "^4.6.3"
   }
 }
