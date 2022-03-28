@@ -1,0 +1,22 @@
+{
+  "name": "@devessier/wait-for",
+  "version": "0.0.0",
+  "description": "Tools to try assertions until they succeed",
+  "main": "index.js",
+  "scripts": {
+    "test": "pnpm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Devessier/wait-for.git"
+  },
+  "author": "Devessier",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/Devessier/wait-for/issues"
+  },
+  "homepage": "https://github.com/Devessier/wait-for#readme",
+  "volta": {
+    "node": "17.8.0"
+  }
+}
