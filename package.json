@@ -1,6 +1,6 @@
 {
   "name": "@devessier/wait-for",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tools to try assertions until they succeed",
   "main": "./dist/index.js",
   "exports": {
