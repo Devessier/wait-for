@@ -12,7 +12,7 @@
   ],
   "scripts": {
     "test": "pnpm test",
-    "build": "tsup src --dts --format esm,cjs",
+    "build": "tsup src/index.ts --dts --format esm,cjs",
     "release": "standard-version"
   },
   "repository": {
