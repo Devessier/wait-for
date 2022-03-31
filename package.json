@@ -20,7 +20,7 @@
     "url": "git+https://github.com/Devessier/wait-for.git"
   },
   "author": "Devessier",
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/Devessier/wait-for/issues"
   },
